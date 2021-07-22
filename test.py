@@ -7,20 +7,25 @@ url = "https://line11.bkfon-resources.com/live/currentLine/ru"
 response = requests.get(url)
 data = response.json()
 
-football_sport_id = []
+parentId_football = []
+leagueId_football = []
 for element in data["sports"]:
-    if "Футбол" in element["name"] and element["kind"] == "segment":
-        football_sport_id.append(element["id"])
+    if element["name"] == "Футбол" and element["kind"] == "sport":
+        parentId_football.append(element["id"])
 
+for element in data["sports"]:
+    if element["kind"] == "segment" and element["parentId"] in parentId_football:
+        leagueId_football.append(element["id"])
 
-for event in data["events"]:
-    if event["sportId"] in football_sport_id:
-        if event["kind"] == 1:
-            if event["place"] == "live":
-                hash_id = hashlib.md5(str(event["id"]).encode("utf-8"))
-                gamers = {hash_id: f"gamer_name = {event['team1']} - {event['team2']}"}
+for element in data["events"]:
+    if element["level"] == 1 and element["sportId"] in leagueId_football:
+        hash_id = hashlib.md5(str(element["id"]).encode("utf-8"))
+        gamers = {hash_id: f"gamer_name = {element['team1']} - {element['team2']}"}  
+
+print(gamers)
 
 game_to_find = list(gamers.values())[0].replace("gamer_name = ", "")
+
 
 driver = webdriver.Chrome()
 driver.get("https://google.ru")
