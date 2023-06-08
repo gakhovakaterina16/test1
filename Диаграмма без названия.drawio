@@ -1,9 +1,210 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T16:00:24.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.7" etag="tZrpBMT5G4Ld5DfVRsAN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T15:40:57.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Nd3PXWqY-VzwQb_2neU5" version="21.3.7" type="github">
   <diagram name="Страница 1" id="GgXR_b6qjz_pSZtLZx7i">
-    <mxGraphModel>
+    <mxGraphModel dx="1301" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-1" value="Плеер на странице трейлеров" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-2" value="Интерфейс" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-3" value="Логика" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-1" target="jRWmCVuy7iyXFGGBqe2C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-1" target="jRWmCVuy7iyXFGGBqe2C-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-6" value="Отображение плеера в стартовом состоянии" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-7" value="Обложка плеера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-8" value="Надпись &quot;Трейлер&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-9" value="Длительность трейлера в формате &quot;hh:mm:ss&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-2" target="jRWmCVuy7iyXFGGBqe2C-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-6" target="jRWmCVuy7iyXFGGBqe2C-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-6" target="jRWmCVuy7iyXFGGBqe2C-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-6" target="jRWmCVuy7iyXFGGBqe2C-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-15" value="Отображение плеера в состоянии после нажатия на обложку плеера на странице трейлеров" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-16" value="Красная иконка с изображением часов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-6" target="jRWmCVuy7iyXFGGBqe2C-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-18" value="Воспроизводящееся видео трейлера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-19" value="Надпись &quot;Трейлер&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-20" value="Длительность трейлера в формате &quot;hh:mm:ss&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-21" value="Красная иконка с изображением часов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-2" target="jRWmCVuy7iyXFGGBqe2C-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="730" as="sourcePoint" />
+            <mxPoint x="280" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15" target="jRWmCVuy7iyXFGGBqe2C-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="730" as="sourcePoint" />
+            <mxPoint x="280" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="730" as="sourcePoint" />
+            <mxPoint x="40" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15" target="jRWmCVuy7iyXFGGBqe2C-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="730" as="sourcePoint" />
+            <mxPoint x="280" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15" target="jRWmCVuy7iyXFGGBqe2C-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="730" as="sourcePoint" />
+            <mxPoint x="280" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-27" value="Отображение при нажатии стоп на воспроизведении" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-29" value="Надпись &quot;Трейлер&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-30" value="Длительность трейлера в формате &quot;hh:mm:ss&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-31" value="Красная иконка с изображением часов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="980" as="sourcePoint" />
+            <mxPoint x="230" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-27" target="jRWmCVuy7iyXFGGBqe2C-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="980" as="sourcePoint" />
+            <mxPoint x="470" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-27" target="jRWmCVuy7iyXFGGBqe2C-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="980" as="sourcePoint" />
+            <mxPoint x="470" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-2" target="jRWmCVuy7iyXFGGBqe2C-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="830" as="sourcePoint" />
+            <mxPoint x="590" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-37" value="Обложка плеера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-27" target="jRWmCVuy7iyXFGGBqe2C-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1030" as="sourcePoint" />
+            <mxPoint x="308" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-39" value="Надпись &quot;Все трейлеры&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-40" value="Стрелочка влево" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15" target="jRWmCVuy7iyXFGGBqe2C-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1030" as="sourcePoint" />
+            <mxPoint x="110" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.585;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-15" target="jRWmCVuy7iyXFGGBqe2C-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1030" as="sourcePoint" />
+            <mxPoint x="110" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-43" value="Надпись &quot;Все трейлеры&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-44" value="Стрелочка влево" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.423;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="jRWmCVuy7iyXFGGBqe2C-27" target="jRWmCVuy7iyXFGGBqe2C-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1030" as="sourcePoint" />
+            <mxPoint x="110" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jRWmCVuy7iyXFGGBqe2C-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="1030" as="sourcePoint" />
+            <mxPoint x="110" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-47" value="В левом верхнем углу название фильма" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-48" value="В левом верхнем углу название фильма" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jRWmCVuy7iyXFGGBqe2C-49" value="Статусбар, где карсным отображается, сколько было просмотрено" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1600" width="150" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
